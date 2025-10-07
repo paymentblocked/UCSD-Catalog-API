@@ -2,7 +2,7 @@
 
 
 ## Endpoints:
- - GET /health -> simple health check
+ # GET /health -> simple health check
  - GET /departments -> list of departments (returns id, name, code)
  - GET /search?q=term -> basic search across course titles and department names
  - GET /departments/by-code/<dept_code> -> lookup a department object by its code (case-insensitive)
