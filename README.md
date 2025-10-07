@@ -2,7 +2,7 @@
 
 
 ## Endpoints:
- ### GET /health -> simple health check
+ * ### GET /health -> simple health check
  ```
  import requests
  res = requests.get("https://ucsd-catalogue-api.onrender.com/health")
