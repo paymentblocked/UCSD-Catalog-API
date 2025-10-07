@@ -3,6 +3,15 @@
 
 ## Endpoints:
  ### GET /health -> simple health check
+ ```
+ import requests
+ res = requests.get("https://ucsd-catalogue-api.onrender.com/health")
+ print(res.json())
+
+ ...
+
+ {status: ok}
+ ```
  - GET /departments -> list of departments (returns id, name, code)
  - GET /search?q=term -> basic search across course titles and department names
  - GET /departments/by-code/<dept_code> -> lookup a department object by its code (case-insensitive)
